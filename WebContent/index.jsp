@@ -4,9 +4,17 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Bucket List</title>
 </head>
 <body>
+
+<form action = "#" method = "get">
+<label for = "rName"> Enter Name of Restaurant</label>
+<input type = "text" name = "rName" id = "rName"> <br>
+<button type = "button" onClick = "findRestaurant()">Search</button>
+</form>
+
+<script type = "text/javascript" src = "js/index.js"></script>
 
 </body>
 </html>
